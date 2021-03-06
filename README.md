@@ -40,7 +40,7 @@ To run this program, the following steps must be performed:
 4. Pull the project > git pull origin master
 5. Open the project with your favorite IDE (IntelliJ, Eclipse, etc), gradle will automatically download the dependencies.
 6. Add the plugins Cucumber for Java and Gherkin in your IDE
-7. Execute the Runner "Kayak" with JUnit
+7. Execute the Runner "Kayak" with JUnit or Gradle
 8. Execute :aggregate in order to generate report
 
 

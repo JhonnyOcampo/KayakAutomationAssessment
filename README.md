@@ -46,5 +46,7 @@ To run this program, the following steps must be performed:
 
 # Report
 
-Report on test results can be found in the following folder: https://github.com/JhonnyOcampo/KayakAutomationAssessment/tree/master/target/site/serenity
+Report on test results can be found in the following folder: 
+https://github.com/JhonnyOcampo/KayakAutomationAssessment/tree/master/target/site/serenity
+
 To open the report, you must download the folder and open the index.html file.

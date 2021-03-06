@@ -28,9 +28,20 @@ The languages and technologies used in this project are the following:
 - Cucumber 1.9.45
 - Gherkin
 - JUnit 4.12 
+- Git
 
 # Instructions
 
+To run this program, the following steps must be performed:
+
+1. Create folder KayakAutomationAssessment in your local files
+2. Create new Git repository in KayakAutomationAssessment folder > git init
+3. Clone the project > git remote add origin https://github.com/JhonnyOcampo/KayakAutomationAssessment.git
+4. Pull the project > git pull origin master
+5. Open the project with your favorite IDE (IntelliJ, Eclipse, etc), gradle will automatically download the dependencies.
+6. Add the plugins Cucumber for Java and Gherkin in your IDE
+7. Execute the Runner "Kayak" with JUnit
+8. Execute :aggregate in order to generate report
 
 
 # Report

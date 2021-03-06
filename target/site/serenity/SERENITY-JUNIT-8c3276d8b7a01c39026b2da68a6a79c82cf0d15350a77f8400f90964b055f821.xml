@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As a Kayak's client I want to flight from Medellin to San Francisco" skipped="0" tests="1" time="77.75" timestamp="2021-03-05 11:29:17"><testcase name="Search flights in Kayak"><error message="Expected condition failed: waiting for By.xpath: /html/body/div[77]/div[4]/div/div/div/div[1]/div/div[1]/h3[1] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-NQ5SJMA', ip: '10.0.2.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: /html/body/div[77]/div[4]/div/div/div/div[1]/div/div[1]/h3[1] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NQ5SJMA', ip: '10.0.2.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: /html/body/div[77]/div[4]/div/div/div/div[1]/div/div[1]/h3[1] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NQ5SJMA', ip: '10.0.2.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: unknown&#13;
-co.com.endava.kayak.stepdefinitions.KayakStepDefinition.iShouldSeeTheOfferWithTheLowestPrice(KayakStepDefinition.java:38)&#13;
-✽.I should see the offer with the lowest price(src/test/resources/features/kayak.feature:10)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As a Kayak's client I want to flight from Medellin to San Francisco" skipped="0" tests="1" time="55.47" timestamp="2021-03-05 10:43:35"><testcase name="Search flights in Kayak"/></testsuite>

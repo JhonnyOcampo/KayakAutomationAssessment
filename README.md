@@ -35,4 +35,5 @@ The languages and technologies used in this project are the following:
 
 # Report
 
-[I'm an inline-style link](https://www.google.com)
+Report on test results can be found in the following folder: https://github.com/JhonnyOcampo/KayakAutomationAssessment/tree/master/target/site/serenity 
+To open the report, you must download the folder and open the index.html file.

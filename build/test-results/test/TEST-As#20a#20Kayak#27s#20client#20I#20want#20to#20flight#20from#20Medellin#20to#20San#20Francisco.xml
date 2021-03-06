@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="As a Kayak's client I want to flight from Medellin to San Francisco" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-03-05T00:01:52" hostname="LAPTOP-J21M936P" time="1.598">
+  <properties/>
+  <testcase name="Search to flights in Kayak" classname="As a Kayak's client I want to flight from Medellin to San Francisco" time="1.598">
+    <failure message="org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed.&#10;  (unknown error: DevToolsActivePort file doesn't exist)&#10;  (The process started from chrome location C:\Users\danie\IdeaProjects\KayakAutomation\chromedriver.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-J21M936P', ip: '192.168.31.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;GetHandleVerifier [0x0103B963+483]&#10;&#9;GetHandleVerifier [0x0103B941+449]&#10;&#9;GetHandleVerifier [0x013E3308+3832712]&#10;&#9;GetHandleVerifier [0x013F9FA6+3926054]&#10;&#9;GetHandleVerifier [0x013F7D9C+3917340]&#10;&#9;GetHandleVerifier [0x0141E7FE+4075646]&#10;&#9;GetHandleVerifier [0x0141E56C+4074988]&#10;&#9;GetHandleVerifier [0x0141B2EB+4062059]&#10;&#9;GetHandleVerifier [0x013FED14+3945876]&#10;&#9;GetHandleVerifier [0x013FFBCE+3949646]&#10;&#9;GetHandleVerifier [0x013FFB59+3949529]&#10;&#9;Ordinal0 [0x00FFB5CC+46540]&#10;&#9;Ordinal0 [0x00FF9F53+40787]&#10;&#9;Ordinal0 [0x00FF9B12+39698]&#10;&#9;GetHandleVerifier [0x01301468+2907368]&#10;&#9;GetHandleVerifier [0x011471EE+1096302]&#10;&#9;GetHandleVerifier [0x01103E8D+821005]&#10;&#9;GetHandleVerifier [0x0110396B+819691]&#10;&#9;GetHandleVerifier [0x01103881+819457]&#10;&#9;GetHandleVerifier [0x0112F463+998627]&#10;&#9;BaseThreadInitThunk [0x76186359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77378944+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77378914+180]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\danie\IdeaProjects\KayakAutomation\chromedriver.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J21M936P', ip: '192.168.31.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0103B963+483]
+	GetHandleVerifier [0x0103B941+449]
+	GetHandleVerifier [0x013E3308+3832712]
+	GetHandleVerifier [0x013F9FA6+3926054]
+	GetHandleVerifier [0x013F7D9C+3917340]
+	GetHandleVerifier [0x0141E7FE+4075646]
+	GetHandleVerifier [0x0141E56C+4074988]
+	GetHandleVerifier [0x0141B2EB+4062059]
+	GetHandleVerifier [0x013FED14+3945876]
+	GetHandleVerifier [0x013FFBCE+3949646]
+	GetHandleVerifier [0x013FFB59+3949529]
+	Ordinal0 [0x00FFB5CC+46540]
+	Ordinal0 [0x00FF9F53+40787]
+	Ordinal0 [0x00FF9B12+39698]
+	GetHandleVerifier [0x01301468+2907368]
+	GetHandleVerifier [0x011471EE+1096302]
+	GetHandleVerifier [0x01103E8D+821005]
+	GetHandleVerifier [0x0110396B+819691]
+	GetHandleVerifier [0x01103881+819457]
+	GetHandleVerifier [0x0112F463+998627]
+	BaseThreadInitThunk [0x76186359+25]
+	RtlGetAppContainerNamedObjectPath [0x77378944+228]
+	RtlGetAppContainerNamedObjectPath [0x77378914+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at co.com.endava.kayak.stepdefinitions.KayakStepDefinition.thatIAmInTheKayakHomePage(KayakStepDefinition.java:33)
+	at ✽.that I am in the Kayak home page(src/test/resources/features/kayak.feature:5)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 41593
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 9515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Invalid --log-level value.
+Unable to initialize logging. Exiting...
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Search to flights in Kayak
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Given that I am in the Kayak home page
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - unknown error: Chrome failed to start: was killed.
+]]></system-err>
+</testsuite>

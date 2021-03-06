@@ -1,0 +1,11 @@
+# Clases compiladas
+
+/*.class
+
+# Gradle
+
+.gradle/
+
+# Archivos eclipse
+
+.idea

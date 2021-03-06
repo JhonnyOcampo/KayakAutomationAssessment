@@ -1,0 +1,10 @@
+co/com/endava/kayak/util/ConstantManager.java
+ co.com.endava.kayak.util.ConstantManager
+co/com/endava/kayak/interactions/WaitUntilClick.java
+ co.com.endava.kayak.interactions.WaitUntilClick
+co/com/endava/kayak/questions/TheSelectedTrip.java
+ co.com.endava.kayak.questions.TheSelectedTrip
+co/com/endava/kayak/userinterface/KayakPage.java
+ co.com.endava.kayak.userinterface.KayakPage
+co/com/endava/kayak/tasks/SearchTheTrip.java
+ co.com.endava.kayak.tasks.SearchTheTrip

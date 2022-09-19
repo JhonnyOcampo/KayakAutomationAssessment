@@ -18,7 +18,7 @@ Go to https://www.kayak.com.co/
 
 According to the original statement, the program should update the departure date to December 15, 2020 and the return date to January 5, 2021. But kayak.com.co does not allow you to look for dates that are less than the current date. Therefore, I used April 10, 2020 and April 20, 2020 instead.
 
-# Languages and technologies
+# Tech stack
 
 The languages and technologies used in this project are the following:
 
